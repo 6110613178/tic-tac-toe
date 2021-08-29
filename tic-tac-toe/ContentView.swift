@@ -58,12 +58,6 @@ struct ContentView: View {
                                 isComputerFirst.toggle()
                                 alertItem = AlertContext.computerWin
                             }
-                            
-                            if checkForDraw(in: moves) {
-                                isComputerFirst.toggle()
-                                alertItem = AlertContext.draw
-                                return
-                            }
 
                         }
                         
